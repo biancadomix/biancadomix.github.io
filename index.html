@@ -1,7 +1,60 @@
-<main>
-            <h2>Hotdog and Hello world!</h2>
-            <p>Can I have a hotdog?</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>School Planner</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#daily">Daily Tasks</a></li>
+            <li><a href="#weekly">Weekly Overview</a></li>
+            <li><a href="#notes">Notes</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Daily Tasks Section -->
+        <section id="daily" class="section-box">
+            <h2>Daily Tasks</h2>
             <ul>
-                <li>Make 5 hotdogs a day</li>
-                <li>total of 35 hotdogs a week</li>
+                <li><input type="checkbox"> Math Homework</li>
+                <li><input type="checkbox"> Science Project</li>
+                <li><input type="checkbox"> History Reading</li>
             </ul>
+        </section>
+
+        <!-- Weekly Overview Section -->
+        <section id="weekly" class="section-box">
+            <h2>Weekly Overview</h2>
+            <div class="week-days">
+                <div>Monday</div>
+                <div>Tuesday</div>
+                <div>Wednesday</div>
+                <div>Thursday</div>
+                <div>Friday</div>
+            </div>
+        </section>
+
+        <!-- Notes Section -->
+        <section id="notes" class="section-box">
+            <h2>Notes</h2>
+            <textarea rows="6" placeholder="Write your notes here..."></textarea>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 School Planner. All rights reserved.</p>
+    </footer>
+</body>
+</html>
