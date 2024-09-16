@@ -1,0 +1,93 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C68A48; /* Wood */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #230902; /* Zinnwaldite Brown */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #552E10; /* Seal Brown */
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Section Styling */
+.section-box {
+    background-color: #FFCE8B; /* Peach-Orange */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+/* Daily Tasks List */
+section#daily ul {
+    list-style: none;
+    padding: 0;
+}
+section#daily ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Weekly Overview Grid */
+.week-days {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+.week-days div {
+    background-color: #552E10; /* Seal Brown */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+/* Notes Section */
+textarea {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #230902; /* Zinnwaldite Brown */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
